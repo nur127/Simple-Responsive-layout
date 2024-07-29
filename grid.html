@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Lay Out Basic</title>
+    <style>
+        .item-container{
+            /* display: flex;
+            flex-wrap: wrap; */
+            display: grid;
+            /* grid-template-columns: 200px 200px 200px 100px; */
+            /* grid-template-columns: 150px 50px auto ; */
+            /* grid-template-columns: repeat(3,150px); */
+            /* grid-template-columns: repeat(3,120px) auto; */
+            /* grid-template-columns: repeat(3,1fr) ; */
+            grid-template-columns: 200px 200px;
+            justify-content: center;
+            align-items: center;
+            /* justify-content: space-around; */
+            /* row-gap: 20px;
+            column-gap: 20px; */
+            gap: 20px;
+            
+        }
+        .items{
+            border: 1px solid salmon;
+        }
+    </style>
+</head>
+<body>
+    <h2>Basic Grid Layout : 2D Layout</h2>
+    <div class="item-container">
+        <div class="items">Item-1</div>
+        <div class="items">Item-2</div>
+        <div class="items">Item-3</div>
+        <div class="items">Item-4</div>
+        <div class="items">Item-5</div>
+        <div class="items">Item-6</div>
+        <div class="items">Item-7</div>
+        <div class="items">Item-8</div>
+        <div class="items">Item-9</div>
+        <div class="items">Item-10</div>
+        <div class="items">Item-11</div>
+        <div class="items">Item-12</div>
+        <div class="items">Item-13</div>
+        <div class="items">Item-14</div>
+        <div class="items">Item-15</div>
+        <div class="items">Item-16</div>
+        <div class="items">Item-17</div>
+        <div class="items">Item-18</div>
+        <div class="items">Item-19</div>
+        <div class="items">Item-20</div>
+    </div>
+</body>
+</html>

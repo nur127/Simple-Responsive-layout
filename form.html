@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        #Profile-details{
+            display: flex;
+            justify-content: space-between;
+            gap: 30px;
+        }
+        nav{
+            display: flex;
+            /* justify-content: space-between; */
+            justify-content: space-between;
+
+        }
+        a{
+            text-decoration: none;
+            color: #757575;
+        }
+        a:hover{
+            background-color: aqua;
+        }
+        /* a:last-of-type{
+            color: red;
+        } */
+        span a:hover{
+            background-color: red;
+        }
+
+        /* Form */
+
+        /* .Form-container{
+            border: 2px solid mediumblue;
+            display: flex;
+            /* flex-direction: column; */
+            /* justify-content: center; */
+            /* align-items: center; */
+            
+        /* }  */
+
+        .details-container{
+            /* border: 2px solid red; */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 50%;
+            margin: 0 auto;
+            align-items: center; 
+            /* Let's Try with flex */
+            height: 90vh;
+            width: 90vh;
+        }
+    .details-container input{
+        margin-top: 20px;
+    }
+    /* .details-container input[submit]{
+        
+    } */
+    /* h2{
+        width: 30%;
+        border: 2px solid saddlebrown;
+        margin: 0 auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    } */
+    </style>
+</head>
+<body>
+    <nav>
+        <div id="Profile-details">
+            <a href="">Home</a>
+            <a href="">Profile</a>
+            <a href="">About</a>
+            <a href="">Blog</a>
+        </div>
+        <span>
+        <a href="">Login</a></span>
+    </nav>
+    <section class="Form-container">
+       
+        <form class="details-container">
+            <h2>Please Login Your Account</h2>
+            <input type="email" placeholder="Enter Your Email" required>
+            <input type="password" name="" id="" placeholder="Enter Your Password" required>
+            <input type="submit" value="Login">
+        </form>
+    </section>
+</body>
+</html>
